@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/scooters_movies/static/css/main.abfea10d.css",
-    "main.js": "/scooters_movies/static/js/main.58e5929d.js",
-    "index.html": "/scooters_movies/index.html",
-    "main.abfea10d.css.map": "/scooters_movies/static/css/main.abfea10d.css.map",
-    "main.58e5929d.js.map": "/scooters_movies/static/js/main.58e5929d.js.map"
+    "main.css": "/movies/static/css/main.abfea10d.css",
+    "main.js": "/movies/static/js/main.58e5929d.js",
+    "index.html": "/movies/index.html",
+    "main.abfea10d.css.map": "/movies/static/css/main.abfea10d.css.map",
+    "main.58e5929d.js.map": "/movies/static/js/main.58e5929d.js.map"
   },
   "entrypoints": [
     "static/css/main.abfea10d.css",
