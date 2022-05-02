@@ -25,11 +25,27 @@ body {
 
 .autocomplete {
   width: 100%;
+  font-weight: bold;
+    font-size: 18px;
+    input[type="search"]:focus,
+    input[type="search"]:active{
+      background-color: #ffffff31;
+      border: none;
+    }
 
   &-search {
     width: 100%;
     display: block;
     height: 50px;
+    background-color: hsla(0,0%,100%,.192);
+    color: $color-white;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 1em;
+    
+  }
+  &:hover{
+    color: linear-gradient(to right, $color-red, $color-dark-red);
   }
 
   &-options {
@@ -58,7 +74,45 @@ body {
     }
   }
 }
-
+.card{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main {
-  padding: 50px 0;
+  align-items: center;
+  box-shadow: 0 5px 11px -5px rgb(0 0 0 / 56%);
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  justify-content: left;
+  padding: 44px;
+  width: 48vw;
+}
+
+.Movie{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  .language {
+      font-size: 16px;
+      font-style: italic;
+  }
+  .vote {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      font-size: 16px;
+  }
+  .overview {
+      font-size: 16px;
+      line-height: 1.8em;
+  }
 }
